@@ -1,0 +1,29 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local caches and temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+tmp/
+temp/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Keep private interview material out of public commits
+.agents/skills/ai-interview-coach/knowledge/private/
+.agents/skills/ai-interview-coach/knowledge/*-private.md
+.agents/skills/ai-interview-coach/knowledge/*.local.md
